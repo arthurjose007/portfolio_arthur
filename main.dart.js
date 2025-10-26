@@ -21473,7 +21473,7 @@ case 2:if(!c)throw A.e(A.cG("Could not launch "+a))
 return A.T(null,r)}})
 return A.U($async$CH,r)},
 aDi(){var s=document.createElement("a")
-s.href="https://arthurjose007.github.io/portfolio_arthur/assets/cv/Arthur_Jose_cv.pdf"
+s.href="https://arthurjose007.github.io/portfolio_arthur/assets/assets/cv/Arthur_Jose_cv.pdf"
 s.setAttribute("download","Arthur_Jose_cv.pdf")
 s.click()},
 yn:function yn(a){this.a=a},
