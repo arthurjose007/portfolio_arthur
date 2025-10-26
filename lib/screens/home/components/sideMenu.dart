@@ -15,9 +15,10 @@ Future<void> _launchUrl(String url) async {
   }
 }
 void _downloadCV() {
-  const cvPath = 'assets/cv/Arthur_Jose_cv.pdf'; // path to your asset
+    final cvPath = '${Uri.base.origin}${Uri.base.path}assets/cv/Arthur_Jose_cv.pdf';
+  // const cvPath = 'assets/cv/Arthur_Jose_cv.pdf';
   final anchor = html.AnchorElement(href: cvPath)
-    ..setAttribute('download', 'Arthur_Jose_cv.pdf') // forces download
+    ..setAttribute('download', 'Arthur_Jose_cv.pdf') 
     ..click(); // triggers browser download
 }
 
