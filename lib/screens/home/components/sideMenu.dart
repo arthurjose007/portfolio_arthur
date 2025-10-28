@@ -112,8 +112,7 @@ class SideMenus extends StatelessWidget {
                         percentage: 0.7, codinglanguage: "C++"),
                     Divider(),
                     KnowledgeText(text: "Flutter,Dart"),
-                    KnowledgeText(text: "Stylus,Sass,Less"),
-                    KnowledgeText(text: "Gulp,,WebPack,Grunt"),
+                    KnowledgeText(text: "Sql,firebase,Hive"),
                     KnowledgeText(text: "GIT Knowledge"),
                     Divider(),
                     TextButton(
